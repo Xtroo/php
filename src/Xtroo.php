@@ -21,7 +21,7 @@
   {
     protected $token = null;
 
-    protected $urlEndpooint = 'http://public.xtroo.dev.tsihosting.co.uk/api/';
+    protected $urlEndpooint = 'http://xtroo.io/api/';
 
     private $client = null;
 
