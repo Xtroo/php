@@ -119,4 +119,22 @@
 
       return $json;
     }
+
+    /**
+     * Get a URL's Image
+     *
+     * @param $url
+     * @param $format
+     * @return mixed
+     * @throws XtrooException
+     */
+    public function getImage($url, $format)
+    {
+      $json = $this->makeCall('image', [
+        'url' => $url,
+        'format' => $format
+      ]);
+
+      return $json;
+    }
   }
