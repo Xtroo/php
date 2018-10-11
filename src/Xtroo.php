@@ -128,7 +128,7 @@
      * @return mixed
      * @throws XtrooException
      */
-    public function getImage($url, $format)
+    public function getImage($url, $format = [])
     {
       $json = $this->makeCall('image', [
         'url' => $url,
